@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыс | Мебель</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/Снимок_экрана_2025-02-12_204516-removebg-preview.png" alt="Мебель Логотипі"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="about.html">Біз туралы</a></li>
+                <li><a href="products.html">Өнімдер</a></li>
+                <li><a href="contact.html">Байланыс</a></li>
+                <li><a href="sebet.html">Себет (<span id="cart-count">0</span>)</a></li>
+             
+            </ul>
+               
+        </nav>
+    </header>
+
+    <main>
+       
+        <!-- Байланыс ақпараты -->
+        <section class="contact-info"><br><br><br><br><br><br>
+            <p>📍 Мекенжай:Байсеит ауылы, Изимов көшесі </p>
+            <p>📞 Телефон: +7 (705) 143-93-73</p>
+            <p>📧 Email:info@aishamebelshop.kz</p>
+        </section>
+
+        <!-- Хабарлама жіберу формасы -->
+        <section class="contact-form">
+            <h2>Бізге хабарласыңыз</h2>
+            <form id="contactForm">
+                <label for="name">Атыңыз:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Хабарлама:</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button type="submit">Жіберу</button>
+            </form>
+            <p id="form-message" style="display: none; color: green;">✅ Хабарламаңыз жіберілді!</p>
+        </section>
+
+        <!-- Карта -->
+        <section class="map">
+            <h2>Біздің орналасқан жеріміз</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11687.357293893964!2d76.9245763291975!3d43.25666746930586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eb2c338c4b3%3A0xb4b8e9e0e9f74d1a!2z0YPQuy4g0JDQsdC10YDQutC40Lkg0YPQu9C40YbRjywgNTAsINCg0L7RgdGB0LjRhtC60LDRjywg0JrRgNCw0YHQvdC40LrQsCDQmtC-0L3QsNGA0LDQtNGB0LrQuNC5INC-0LHQuy4sIDAwMDAwMA!5e0!3m2!1sru!2skz!4v1707589123456"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Мебель Компаниясы. Барлық құқықтар қорғалған.</p>
+            <ul class="social-links">
+                        <li><button class="jeli" id="whatsapp-btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsU3MIP2blMBiJo6ibJWQzPjExhKD1_ItvEQ&s" alt="WhatsApp"></button></li>
+                        <li><button class="jeli" id="instagram-btn"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></button></li>
+                        <li><button class="jeli" id="facebook-btn"><img src="https://png.pngtree.com/element_our/md/20180515/md_5afaf0c42f0c8.jpg" alt="Facebook"></button></li>
+            </ul>
+            <p>Байланыс: +7 (705) 143-93-73 | Email: info@aishamebelshop.kz</p>
+        </div>
+    </footer>
+
+    <script src="js/contact.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Өнімдер | Мебель</title>
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/Снимок_экрана_2025-02-12_204516-removebg-preview.png" alt="Мебель Логотипі"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="about.html">Біз туралы</a></li>
+                <li><a href="products.html">Өнімдер</a></li>
+                <li><a href="contact.html">Байланыс</a></li>
+                <li><a href="sebet.html">Себет (<span id="cart-count">0</span>)</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <h1>Біздің өнімдер</h1>
+        <div class="product-container">
+            <div class="product" data-name="Жайлы диван" data-price="220000">
+                <img src="https://resources.cdn-kaspi.kz/img/m/p/h64/h08/84965426692126.jpg?format=gallery-large" alt="Жайлы диван">
+                <h3>Жайлы диван</h3>
+                <p>Бағасы: 220,000₸</p>
+                <button class="add-to-cart">Себетке салу</button>
+            </div>
+            <div class="product" data-name="Асхана үстелі" data-price="80000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiVJUjaog5OCkG2Qqia2nUwT_3ZETZGfxcew&s" alt="Асхана үстелі">
+                <h3>Асхана үстелі</h3>
+                <p>Бағасы: 80,000₸</p>
+                <button class="add-to-cart">Себетке салу</button>
+            </div>
+            <div class="product" data-name="Ыңғайлы орындық" data-price="25000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnnJ5T8-rKUqH8lE1dk7ax84q0D4C7SbRUiQ&s" alt="Ыңғайлы орындық">
+                <h3>Ыңғайлы орындық</h3>
+                <p>Бағасы: 25,000₸</p>
+                <button class="add-to-cart">Себетке салу</button>
+            </div>
+            <div class="product" data-name="Киім шкафы" data-price="150000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYNMW4fbXNCsKEbZJuiR7syOtfKIOAuzHFqw&s" alt="Киім шкафы">
+                <h3>Киім шкафы</h3>
+                <p>Бағасы: 150,000₸</p>
+                <button class="add-to-cart">Себетке салу</button>
+            </div>
+        </div>
+         -->
+        <section class="qorap1">
+            <h2>Диваны</h2>
+            <div class="products">
+                <div class="card">
+                    <img src="https://cdn0.divan.ru/img/v1/hL6_hFNg8diI3Gx-uNmhdCzOEVG6Ngw1SjaDJyewmRI/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4MTc0NzMucG5n.jpg" alt="Диваны">
+                    <h3>Модульный диван Риббл-5 </h3>
+                    <p>Бағасы: 1 429 720 т</p>
+                    <button onclick="addToCart('Риббл-5', 1429720)">Себетке қосу</button>
+                </div>
+                <div class="card">
+                    <img src="https://cdn0.divan.ru/img/v1/mkTv47XD1OnYATxG6D4aSo1ZFGPHtWnXIEiV_5eWpYo/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4Nzk4NzQuanBn.jpg" alt="Диваны">
+                    <h3>Диван Бонент Velvet Light</h3>
+                    <p>Бағасы: 500 430 т</p>
+                    <button onclick="addToCart('Бонент', 500430)">Себетке қосу</button>
+                </div>
+                <div class="card">
+                    <img src="https://cdn0.divan.ru/img/v1/AQC6d-Ji8dnXkY4IB_4lZJMo614YzlkJ2IL_c10jT30/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ0NDI0ODAuanBn.jpg" alt="Диваны">
+                    <h3>Диван Льери Мини Velvet </h3>
+                    <p>Бағасы: 464 680 т</p>
+                    <button onclick="addToCart('Льери', 464680)">Себетке қосу</button>
+                </div> <div class="card">
+                    <img src="https://cdn0.divan.ru/img/v1/Ofg_iDCxHO3J8BBogY7B1oAnQmsu_8fnl872Mu3PAaU/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ3ODM5MDguanBn.jpg" alt="Диваны">
+                    <h3>Диван Шилдс Bucle Beige</h3>
+                    <p>Бағасы: 643 430 т</p>
+                    <button onclick="addToCart('Шилдс', 643430)">Себетке қосу</button>
+                </div> <div class="card">
+                    <img src="https://cdn0.divan.ru/img/v1/F0xUV4oY4B7wP8FhXpHsqUNtSzIenuVhDpFuJC2TATs/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ2MDc4MzAucG5n.jpg" alt="Диваны">
+                    <h3>Диван Лонди Cozy Ginger</h3>
+                    <p>Бағасы: 321 680 т</p>
+                    <button onclick="addToCart('Лонди', 321680)">Себетке қосу</button>
+                </div>
+              
+            </div>
+        </section>
+        
+        <section class="qorap1">
+            <h2>Кровать</h2>
+            <div class="products">
+            <div class="card">
+                <img src="https://cdn0.divan.ru/img/v1/6ssR_KbKxYrP8B-GcJi5C-ILBq6b900psGlFQtCB3I0/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzU0MTczNTAuanBn.jpg" alt="Кровать">
+                <h3>Кровать Даймант-Floor 160 Barhat </h3>
+                <p>Бағасы: 414 320 т</p>
+                <button onclick="addToCart('Дайманд', 414320)">Себетке қосу</button>
+            </div>
+            <div class="card">
+                <img src="https://cdn0.divan.ru/img/v1/ahj2oFV7xWcOTGidqBw07SK1GnnDBFbBCEy31FMyjnw/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ0NjI0NjkuanBn.jpg" alt="Кровать">
+                <h3>Кровать Клифтон Velvet Grey</h3>
+                <p>Бағасы: 443 230 т</p>
+                <button onclick="addToCart('Клифтон', 443230)">Себетке қосу</button>
+            </div>
+            <div class="card">
+                <img src="https://cdn0.divan.ru/img/v1/LjTXqge-tEHcqBDQozIndzNkRCV6X3W-RkCvmcRvjYo/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxNTg5NTQuanBn.jpg" alt="Кровать">
+                <h3>Кровать Лосон 160 Velvet Emerald</h3>
+                <p>Бағасы: 378 480 т</p>
+                <button onclick="addToCart('Лосон', 378480)">Себетке қосу</button>
+            </div> <div class="card">
+                <img src="https://cdn0.divan.ru/img/v1/rWVPOcFYEZlKZ8fhxBCbEkPV-MXjyG3K3RgixwFMg44/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4NjkzMzMuanBn.jpg" alt="Кровать">
+                <h3>Кровать Фостер 180 Velvet Smoke</h3>
+                <p>Бағасы: 357 430 т</p>
+                <button onclick="addToCart('Фостер', 357430)">Себетке қосу</button>
+            </div> <div class="card">
+                <img src="https://cdn0.divan.ru/img/v1/xJFk9mbkrRKC5w-8xB8Xr7hUOHLakHDIQygUij668CE/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUyNjE2MjMuanBn.jpg" alt="Кровать">
+                <h3>Кровать Эмбер 160 Barhat Rose</h3>
+                <p>Бағасы: 428 930 т</p>
+                <button onclick="addToCart('Эмбер', 428930)">Себетке қосу</button>
+            </div>
+          
+        </div>
+    </section>
+    <section class="qorap1">
+        <h2>Стулья</h2>
+        <div class="products">
+        <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/lNRCmyc5pUkdrsxPyXnImJFA82Jf9QCHvvbWRL6hePw/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ5Mzg2OTYuanBn.jpg" alt="Стулья">
+            <h3>Кресло Лонди Bucle Galaxy</h3>
+            <p>Бағасы: 261 000 т</p>
+            <button onclick="addToCart('Лонди', 261000)">Себетке қосу</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/msiCamfxRPAEUfT5eRxXtwW4sWJa65ab9ty_egH2TAg/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUyMzcxOTAuanBn.jpg" alt="Стулья">
+            <h3>Кресло Роттердам Velvet </h3>
+            <p>Бағасы: 142 930 т</p>
+            <button onclick="addToCart('Роттердам', 142930)">Себетке қосу</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/VZs1R4thYKT7FwXZYJX2thUPCyp0we97iW922g02x18/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUxODk2NjkuanBn.jpg" alt="Стулья">
+            <h3>Кресло поворотное Теоп </h3>
+            <p>Бағасы: 264 480 т</p>
+            <button onclick="addToCart('Теоп', 264480)">Себетке қосу</button>
+        </div> <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/PeMN1td0AG2gzNXF3fz7tR9EM86Bu-yZhlDWt2dudEg/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxOTk2ODguanBn.jpg" alt="Стулья">
+            <h3>Кресло Коренс Happy Grey</h3>
+            <p>Бағасы: 164 380 т</p>
+            <button onclick="addToCart('Коренс', 164380)">Себетке қосу</button>
+        </div> <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/iWiEM2CCsstVSFk_Q39fZkCkhKte0eG0uNLQ0CggfJM/t:0::0:0/pd:123:60:123:60/rs:fit:1148:594:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4NzE0MTQucG5n.jpg" alt="Стулья">
+            <h3>Кресло Пайл Textile Grafit</h3>
+            <p>Бағасы: 192 980 т</p>
+            <button onclick="addToCart('Пайл', 192980)">Себетке қосу</button>
+        </div>
+      
+    </div>
+</section>
+<section class="qorap1">
+        <h2>Шкафы</h2>
+        <div class="products">
+        <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/EHS0awL0B3r3J6ahWLykShjaRaZVOKxzL6s7DGUM2dQ/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUxNjA1NzMucG5n.jpg" alt="Шкафы">
+            <h3>Распашной шкаф Монблан-4 Line </h3>
+            <p>Бағасы: 571 930 т</p>
+            <button onclick="addToCart('Монблан-4', 571930)">Себетке қосу</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/RFFBLIdnH2jzD12Astlo9-e_UP6dEoON7XMoXqRz6UY/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:95/czM6Ly9kaXZhbi9wcm9kdWN0LzQ0MDEzNzIucG5n.jpg" alt="Шкафы">
+            <h3>Распашной шкаф Ферран-2 Wood</h3>
+            <p>Бағасы: 314 930 т</p>
+            <button onclick="addToCart('Ферран', 314930)">Себетке қосу</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/dvZLV-x8wlPsznTkLKWX05egLV8y4nDCji2sSqEHAgo/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUzMzUxMjQucG5n.jpg" alt="Шкафы">
+            <h3>Шкаф-купе Беррингтон-3 </h3>
+            <p>Бағасы: 857 930 т</p>
+            <button onclick="addToCart('Беррингтон-3', 857930)">Себетке қосу</button>
+        </div> <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/E7fZ2eN7ZrYSH49h6g8b-ofjUr0z3GUNoRWloHR4BeA/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzU0Njg0MTQucG5n.jpg" alt="Шкафы">
+            <h3>Распашной шкаф Шелтон-4.2 </h3>
+            <p>Бағасы: 571 930 т</p>
+            <button onclick="addToCart('Шелтон-4', 571930)">Себетке қосу</button>
+        </div> <div class="card">
+            <img src="https://cdn0.divan.ru/img/v1/P2uT8p16HgU4BBxnzhPm22YabnRufZa39kGYhA6b6-4/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ1MzAwMDYucG5n.jpg" alt="Шкафы">
+            <h3>Распашной шкаф Пронто-4 Велюр</h3>
+            <p>Бағасы: 443 230 т</p>
+            <button onclick="addToCart('Пронто-4', 443230)">Себетке қосу</button>
+        </div>
+    
+    </div>
+</section>
+    
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Мебель Компаниясы. Барлық құқықтар қорғалған.</p>
+            <ul class="social-links">
+                <ul class="social-links">
+                        <li><button class="jeli" id="whatsapp-btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsU3MIP2blMBiJo6ibJWQzPjExhKD1_ItvEQ&s" alt="WhatsApp"></button></li>
+                        <li><button class="jeli" id="instagram-btn"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></button></li>
+                        <li><button class="jeli" id="facebook-btn"><img src="https://png.pngtree.com/element_our/md/20180515/md_5afaf0c42f0c8.jpg" alt="Facebook"></button></li>
+                </ul>
+                
+            </ul>
+            <p>Байланыс: +7 (705) 143-93-73 | Email: info@aishamebelshop.kz</p>
+        </div>
+    </footer>
+<script src="js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://trafaret-decor.art/sites/default/files/styles/max_650x650/public/2023-05/fon-dlja-prezentacii-mebel-2812.jpg?itok=9NmILBpv');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Экран биіктігін толтыру */
+}
+/* Header стильдері */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3333338a;
+    padding: 15px 50px;
+    position: fixed; /* Жоғарыға бекіту */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 90px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+/* Контакт ақпараты */
+.contact-info {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Байланыс формасы */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #cc5200;
+}
+
+/* Карта */
+.map {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.map iframe {
+    border-radius: 10px;
+}
+/* Footer стильдері */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Footer-ды төменге қою */
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.social-links img {
+    width: 25px;
+}
+.jeli{
+    background-color: #222;
+    border: none;
+}
+.jeli:hover{
+    background-color: #4c4b4bd1;
+}
