@@ -31,6 +31,19 @@ header {
 .logo img {
     height: 90px;
 }
+.logo-container {
+    opacity: 0;
+    transform: rotateY(0deg);
+    animation: fadeIn 2s ease-in-out forwards, rotate3D 3s ease-in-out 2s forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes rotate3D {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
 
 nav ul {
     list-style: none;
@@ -61,7 +74,26 @@ main {
     gap: 30px;
     margin-top: 20px;
 }
-
+.buttons {
+    margin: 20px;
+}
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+}
+.buttons button:hover {
+    background-color: #218838;
+}
+.funitures-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /* Өнім стилі */
 .product {
     background: #f9f9f9;
@@ -196,9 +228,10 @@ footer {
     width: 25px;
 }
 
+
 /* Footer стильдері */
 footer {
-    background: #222;
+    background: #222222ac;
     color: white;
     text-align: center;
     padding: 20px;
@@ -222,10 +255,106 @@ footer {
     width: 25px;
 }
 .jeli{
-    background-color: #222;
+    background-color: #ffffff00;
     border: none;
+   
 }
 .jeli:hover{
-    background-color: #4c4b4bd1;
+    background-color: #fffcfc00;
 }
 
+
+/* Медиа адаптация */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .adv-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .GGG, .qorap1 {
+        text-align: center;
+        padding: 20px;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .buttons button {
+        padding: 10px;
+        font-size: 16px;
+    }
+    #furnitures-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .adv-item img {
+        width: 80px;
+    }
+    .GGG button, .buttons button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #furnitures-container {
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 20px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-links li {
+        margin: 5px 0;
+    }
+    .GGG h2, .GGG h3, .qorap1 h2 {
+        font-size: 18px;
+    }
+    .GGG button, .buttons button {
+        font-size: 14px;
+    }
+    #furnitures-container {
+        grid-template-columns: repeat(1, minmax(150px, 1fr));
+    }
+}

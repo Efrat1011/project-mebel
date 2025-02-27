@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #000000c1;
+    background: #0000009c;
     padding: 15px 50px;
     position: fixed; /* Жоғарыға бекіту */
     top: 0;
@@ -30,6 +30,19 @@ header {
 
 .logo img {
     height: 90px;
+}
+.logo-container {
+    opacity: 0;
+    transform: rotateY(0deg);
+    animation: fadeIn 2s ease-in-out forwards, rotate3D 3s ease-in-out 2s forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes rotate3D {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
 }
 
 nav ul {
@@ -65,8 +78,15 @@ main {
 .hero-content h1 {
     font-size: 36px;
     margin-bottom: 10px;
+  
 }
-
+.hero-content:hover{
+    background-color: rgba(160, 158, 158, 0.607);
+    border-radius: 35px;
+    width: 50%;
+    height: 200px;
+    transition-duration: 3s;
+}
 .btn {
     display: inline-block;
     background: #ff6600;
@@ -94,8 +114,11 @@ main {
 }
 
 .adv-item {
+    background-color: #ffffff55;
     text-align: center;
     width: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .adv-item img {
@@ -125,10 +148,51 @@ main {
     max-width: 500px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.464);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddddd83;
+    border-radius: 5px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+.batyrma{
+    width: 100%;
+}
+.reviews {
+    margin-top: 20px;
+    text-align: left;
+}
+.review {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
 
 /* Байланысу бөлімі */
 .cta {
-    background: #222;
+    background: #22222276;
+    border-radius: 100px;
     color: white;
     text-align: center;
     padding: 50px;
@@ -137,7 +201,7 @@ main {
 
 /* Footer стильдері */
 footer {
-    background: #222;
+    background: #222222ac;
     color: white;
     text-align: center;
     padding: 20px;
@@ -162,9 +226,74 @@ footer {
     
 }
 .jeli{
-    background-color: #222;
+    background-color: #ffffff00;
     border: none;
+   
 }
 .jeli:hover{
-    background-color: #4c4b4bd1;
+    background-color: #fffcfc00;
+}
+/* Бастапқы стильдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Медиа адаптация */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .adv-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .adv-item img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 20px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-links li {
+        margin: 5px 0;
+    }
 }

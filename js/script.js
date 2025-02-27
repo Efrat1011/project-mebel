@@ -1,3 +1,20 @@
+
+function addReview() {
+    const text = document.getElementById('reviewText').value;
+    const name = document.getElementById('reviewerName').value;
+    if (text.trim() === "" || name.trim() === "") {
+        alert("Пікір мен атын енгізіңіз!");
+        return;
+    }
+    
+    const reviewsList = document.getElementById('reviewsList');
+    const reviewDiv = document.createElement('div');
+    reviewDiv.classList.add('review');
+    reviewDiv.innerHTML = `<strong>${name}:</strong> <p>${text}</p>`;
+    reviewsList.prepend(reviewDiv);
+}
+    document.getElementById('reviewText').value = "";
+    document.getElementById('reviewerName').value = ""
 // Әлеуметтік желі сілтемелерін басқару
 document.addEventListener("DOMContentLoaded", function () {
     // WhatsApp батырмасы
@@ -22,10 +39,4 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".product button").forEach(button => {
-        button.addEventListener("click", function () {
-            alert("Бұл функция әлі қосылмаған, бірақ жақында іске қосылады!");
-        });
-    });
-});
+

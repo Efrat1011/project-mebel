@@ -1,0 +1,75 @@
+
+
+/* Медиа адаптация */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .adv-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .GGG {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .adv-item img {
+        width: 80px;
+    }
+    .GGG button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 20px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-links li {
+        margin: 5px 0;
+    }
+    .GGG h2, .GGG h3 {
+        font-size: 18px;
+    }
+    .GGG button {
+        font-size: 14px;
+    }
+}

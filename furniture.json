@@ -1,0 +1,215 @@
+{
+  "furniture": [
+    {
+      "id": "1",
+      "name": "Модульный диван Риббл-5",
+      "category": "Диваны",
+      "price": "1 429 720 т",
+      "image": "https://cdn0.divan.ru/img/v1/hL6_hFNg8diI3Gx-uNmhdCzOEVG6Ngw1SjaDJyewmRI/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4MTc0NzMucG5n.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Диван Бонент Velvet Light",
+      "category": "Диваны",
+      "price": "500 430 т",
+      "image": "https://cdn0.divan.ru/img/v1/mkTv47XD1OnYATxG6D4aSo1ZFGPHtWnXIEiV_5eWpYo/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4Nzk4NzQuanBn.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Диван Льери Мини Velvet",
+      "category": "Диваны",
+      "price": "464 680 т",
+      "image": "https://cdn0.divan.ru/img/v1/AQC6d-Ji8dnXkY4IB_4lZJMo614YzlkJ2IL_c10jT30/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ0NDI0ODAuanBn.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Диван Шилдс Bucle Beige",
+      "category": "Диваны",
+      "price": "643 430 т",
+      "image": "https://cdn0.divan.ru/img/v1/Ofg_iDCxHO3J8BBogY7B1oAnQmsu_8fnl872Mu3PAaU/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ3ODM5MDguanBn.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Диван Лонди Cozy Ginger",
+      "category": "Диваны",
+      "price": "321 680 т",
+      "image": "https://cdn0.divan.ru/img/v1/F0xUV4oY4B7wP8FhXpHsqUNtSzIenuVhDpFuJC2TATs/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ2MDc4MzAucG5n.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Кровать Даймант-Floor 160 Barhat",
+      "category": "Кровати",
+      "price": "414 320 т",
+      "image": "https://cdn0.divan.ru/img/v1/6ssR_KbKxYrP8B-GcJi5C-ILBq6b900psGlFQtCB3I0/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzU0MTczNTAuanBn.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Кровать Клифтон Velvet Grey",
+      "category": "Кровати",
+      "price": "443 230 т",
+      "image": "https://cdn0.divan.ru/img/v1/ahj2oFV7xWcOTGidqBw07SK1GnnDBFbBCEy31FMyjnw/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ0NjI0NjkuanBn.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Кровать Лосон 160 Velvet Emerald",
+      "category": "Кровати",
+      "price": "378 480 т",
+      "image": "https://cdn0.divan.ru/img/v1/LjTXqge-tEHcqBDQozIndzNkRCV6X3W-RkCvmcRvjYo/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxNTg5NTQuanBn.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Кровать Фостер 180 Velvet Smoke",
+      "category": "Кровати",
+      "price": "357 430 т",
+      "image": "https://cdn0.divan.ru/img/v1/rWVPOcFYEZlKZ8fhxBCbEkPV-MXjyG3K3RgixwFMg44/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4NjkzMzMuanBn.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Кровать Эмбер 160 Barhat Rose",
+      "category": "Кровати",
+      "price": "428 930 т",
+      "image": "https://cdn0.divan.ru/img/v1/xJFk9mbkrRKC5w-8xB8Xr7hUOHLakHDIQygUij668CE/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUyNjE2MjMuanBn.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Кресло Лонди Bucle Galaxy",
+      "category": "Кресла",
+      "price": "261 000 т",
+      "image": "https://cdn0.divan.ru/img/v1/lNRCmyc5pUkdrsxPyXnImJFA82Jf9QCHvvbWRL6hePw/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ5Mzg2OTYuanBn.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Кресло Роттердам Velvet",
+      "category": "Кресла",
+      "price": "142 930 т",
+      "image": "https://cdn0.divan.ru/img/v1/msiCamfxRPAEUfT5eRxXtwW4sWJa65ab9ty_egH2TAg/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUyMzcxOTAuanBn.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Кресло поворотное Теоп",
+      "category": "Кресла",
+      "price": "264 480 т",
+      "image": "https://cdn0.divan.ru/img/v1/VZs1R4thYKT7FwXZYJX2thUPCyp0we97iW922g02x18/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUxODk2NjkuanBn.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Кресло Коренс Happy Grey",
+      "category": "Кресла",
+      "price": "164 380 т",
+      "image": "https://cdn0.divan.ru/img/v1/PeMN1td0AG2gzNXF3fz7tR9EM86Bu-yZhlDWt2dudEg/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxOTk2ODguanBn.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Кресло Пайл Textile Grafit",
+      "category": "Кресла",
+      "price": "192 980 т",
+      "image": "https://cdn0.divan.ru/img/v1/iWiEM2CCsstVSFk_Q39fZkCkhKte0eG0uNLQ0CggfJM/t:0::0:0/pd:123:60:123:60/rs:fit:1148:594:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ4NzE0MTQucG5n.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Распашной шкаф Монблан-4 Line",
+      "category": "Шкафы",
+      "price": "571 930 т",
+      "image": "https://cdn0.divan.ru/img/v1/EHS0awL0B3r3J6ahWLykShjaRaZVOKxzL6s7DGUM2dQ/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUxNjA1NzMucG5n.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Распашной шкаф Ферран-2 Wood",
+      "category": "Шкафы",
+      "price": "314 930 т",
+      "image": "https://cdn0.divan.ru/img/v1/RFFBLIdnH2jzD12Astlo9-e_UP6dEoON7XMoXqRz6UY/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:95/czM6Ly9kaXZhbi9wcm9kdWN0LzQ0MDEzNzIucG5n.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Шкаф-купе Беррингтон-3",
+      "category": "Шкафы",
+      "price": "857 930 т",
+      "image": "https://cdn0.divan.ru/img/v1/dvZLV-x8wlPsznTkLKWX05egLV8y4nDCji2sSqEHAgo/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUzMzUxMjQucG5n.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Распашной шкаф Шелтон-4.2",
+      "category": "Шкафы",
+      "price": "571 930 т",
+      "image": "https://cdn0.divan.ru/img/v1/E7fZ2eN7ZrYSH49h6g8b-ofjUr0z3GUNoRWloHR4BeA/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzU0Njg0MTQucG5n.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Распашной шкаф Пронто-4 Велюр",
+      "category": "Шкафы",
+      "price": "443 230 т",
+      "image": "https://cdn0.divan.ru/img/v1/P2uT8p16HgU4BBxnzhPm22YabnRufZa39kGYhA6b6-4/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ1MzAwMDYucG5n.jpg"
+    },
+    { 
+      "id": "21", 
+    "name": "Стол Леванте-2 Grey", 
+    "category": "Столы", 
+    "price": "150 000 т", 
+    "image": "https://cdn0.divan.ru/img/v1/14vZHBSubfKeSvPJBVdidq7Is5pHEKjJJLy6FJban4U/t:0::0:0/pd:123:160:123:160/rs:fit:948:594:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ5ODM4MDgucG5n.jpg"
+     },
+    { 
+      "id": "22", 
+    "name": "Кухонный стол Маунт Wood", 
+    "category": "Столы",
+     "price": "428 000 т", 
+     "image": "https://cdn0.divan.ru/img/v1/RNZEuKPztPLhLEKVQyPAqa6CQTVzaHQv40LLYPwOlow/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzU1MTI3MzQucG5n.jpg" 
+     },
+    {
+       "id": "23", 
+    "name": "Стол Гилберт Marble Black",
+     "category": "Столы", 
+     "price": "95 000 т", 
+     "image": "https://cdn0.divan.ru/img/v1/5vQZyMIYDOARAqJBOA1sopujcz0Td3GztCvErkOdASM/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUwNDc0NTcucG5n.jpg" 
+     },
+    { 
+      "id": "24", 
+    "name": "Стол Шепард Black",
+     "category": "Столы", 
+     "price": "200 000 т",
+      "image": "https://cdn0.divan.ru/img/v1/cDoDoSzeGJSRUo_iT2Chm-0HSdXmB1b-2mtDg0gooyY/t:0::0:0/pd:60:60:60:60/rs:fit:1148:720:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzUwNzM0NTEucG5n.jpg" 
+      },
+    { 
+      "id": "25", 
+    "name": "Журнальный стол Менгви ",
+     "category": "Столы", 
+     "price": "120 000 т", 
+     "image": "https://cdn0.divan.ru/img/v1/nDMm1A2Evt4ImG2-hNM6uEkZeEtlKWCZ-s1P6Vya7kY/t:0::0:0/pd:123:160:123:160/rs:fit:948:594:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzU0MTc0NjEucG5n.jpg"
+    },
+    { 
+      "id": "26", 
+      "name": "Кухонный гарнитур Модерн",
+       "category": "Кухонная гарнитура",
+        "price": "500 000 т",
+         "image": "https://resources.cdn-kaspi.kz/img/m/p/h0e/h31/80659311493150.jpg?format=gallery-medium"
+     },
+    { 
+      "id": "27",
+       "name": "Кухонный гарнитур Классик",
+        "category": "Кухонная гарнитура",
+         "price": "650 000 т", 
+         "image": "https://resources.cdn-kaspi.kz/img/m/p/hb9/hd3/66309626560542.jpg?format=gallery-medium" 
+    },
+    {
+       "id": "28",
+        "name": "Кухонный гарнитур Минимал",
+         "category": "Кухонная гарнитура", 
+         "price": "450 000 т", 
+         "image": "https://resources.cdn-kaspi.kz/img/m/p/hfa/hcd/67181138182174.jpg?format=gallery-medium" 
+    },
+    {
+       "id": "29", 
+       "name": "Кухонный гарнитур Лофт",
+        "category": "Кухонная гарнитура",
+         "price": "700 000 т",
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/he8/h66/64183635804190.jpg?format=gallery-medium" 
+    },
+    {
+       "id": "30", 
+       "name": "Кухонный гарнитур Прованс", 
+       "category": "Кухонная гарнитура", 
+       "price": "600 000 т", 
+       "image": "https://resources.cdn-kaspi.kz/img/m/p/h0d/h41/79658185031710.jpg?format=gallery-medium" 
+    }
+  
+  ]
+}

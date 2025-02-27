@@ -1,0 +1,227 @@
+body{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    padding-top: 150px;
+}
+.shourumy{
+    text-align: center;
+    flex-basis: auto;
+}
+.h2{
+    font-size: 35px;
+}
+.paragraph1{
+    font-size: 25px;
+}
+.shou1{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 45px;
+    margin-left: 50px;
+}
+.img1{
+    width: 450px;
+    height: 450px;
+    transition-duration: 2s;
+}
+.img1:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+.img2{
+    width: 450px;
+    height: 450px;
+    transition-duration: 2s;
+}
+.img2:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+.home1{
+    font-weight: bolder;
+    align-content: center;
+    line-height: 20px;
+    margin-right: 60px;
+    transition-duration: 2s;
+}
+.home1:hover{
+
+    transform: translatey(15%);
+}
+.shou2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    column-gap: 45px;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-basis: auto;
+    
+    
+}
+.img3{
+    width: 450px;
+    height: 450px;
+    transition-duration: 2s;
+}
+.img3:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+.img4{
+    width: 450px;
+    height: 450px;
+    transition-duration: 2s;
+    
+}
+.img4:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+.home2{
+    font-weight: bolder;
+    align-content: center;
+    line-height: 20px;
+    margin-right: 60px;
+    transition-duration: 2s;
+}
+.home2:hover{
+    transform: translatey(15%);
+}
+.shourumy1{
+    text-align: center      
+    
+}
+.h22{
+    font-size: 35px;
+    text-align: center;
+}
+.paragraph2{
+    font-size: 25px;
+    text-align: center;
+}
+.jeli{
+    background-color: #ffffff00;
+    border: none;
+   
+}
+.jeli:hover{
+    background-color: #fffcfc00;
+}
+
+
+/* Медиа адаптация */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .adv-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .GGG, .qorap1, .shourumy1, .shou1, .shou2 {
+        text-align: center;
+        padding: 20px;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .buttons button {
+        padding: 10px;
+        font-size: 16px;
+    }
+    #furnitures-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    .shou1, .shou2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shou1 img, .shou2 img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .adv-item img {
+        width: 80px;
+    }
+    .GGG button, .buttons button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #furnitures-container {
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
+    .shou1 img, .shou2 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 20px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-links li {
+        margin: 5px 0;
+    }
+    .GGG h2, .GGG h3, .qorap1 h2, .shourumy1 h2, .h22 {
+        font-size: 18px;
+    }
+    .GGG button, .buttons button {
+        font-size: 14px;
+    }
+    #furnitures-container {
+        grid-template-columns: repeat(1, minmax(150px, 1fr));
+    }
+    .shou1, .shou2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shou1 img, .shou2 img {
+        width: 100%;
+    }
+}
